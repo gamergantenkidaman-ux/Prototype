@@ -16,7 +16,7 @@ interface WelcomePopupProps {
 export default function WelcomePopup({ onClose }: WelcomePopupProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-      <div className="relative w-[588px] h-[710px] rounded-2xl overflow-hidden bg-[#ffcf9d]">
+      <div className="relative w-[588px] h-[710px] rounded-2xl bg-[#ffcf9d]">
         {/* Background decorative shapes */}
         <div className="absolute w-[800px] h-[800px] -left-[349px] -top-[165px]">
           <img
