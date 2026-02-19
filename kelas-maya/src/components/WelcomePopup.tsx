@@ -18,11 +18,11 @@ export default function WelcomePopup({ onClose }: WelcomePopupProps) {
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
       <div className="relative w-[588px] h-[710px] rounded-2xl overflow-hidden bg-[#ffcf9d]">
         {/* Background decorative shapes */}
-        <div className="absolute inset-0">
+        <div className="absolute inset-[-23.32%_-15.12%_56.74%_-59.35%]">
           <img
             src={subtract}
             alt=""
-            className="absolute w-[800px] h-[800px] -left-[100px] -top-[150px]"
+            className="absolute block inset-0 max-w-none"
           />
         </div>
 
