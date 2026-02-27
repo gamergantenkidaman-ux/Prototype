@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import bukapintu2 from "../assets/bukapintu2.json";
+import welkam from "../assets/welkam.json";
 
 interface WelcomePopupProps {
   onClose?: () => void;
@@ -11,7 +11,7 @@ export default function WelcomePopup({ onClose }: WelcomePopupProps) {
       <div className="relative w-[588px] rounded-2xl overflow-hidden bg-white">
         {/* Lottie Illustration - Full 588x331 */}
         <Lottie 
-          animationData={bukapintu2} 
+          animationData={welkam} 
           loop={true}
           style={{ width: '588px', height: '331px' }}
         />
